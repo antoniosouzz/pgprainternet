@@ -19,4 +19,9 @@ public class Postagens extends Controller{
 	 public void post() {
 		 render();
 	 }
+	 
+	 private void sysout() {
+		// TODO Auto-generated method stub
+
+	}
 }
