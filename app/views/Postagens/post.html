@@ -1,0 +1,26 @@
+#{extends 'main.html' /} #{set title:'Lista de Postagens' /}
+
+<h1>Cadastrar Nova Postagem</h1>
+
+<form method="post" action=@{Postagens.salvar}>
+
+	<div>
+		<label for="titulo"> Título </label> <input type="text" id="titulo"
+			name="titulo" required>
+	</div>
+
+	<div>
+		<label for="conteudo"> Conteúdo:</label>
+		<textarea id="conteudo" name="conteudo" required></textarea>
+	</div>
+
+	<div>
+		<label for="autor">Autor:</label>
+		<imput type="date" id="data" name="data" required>
+	</div>
+
+	<div>
+		<button type="submit">Salvar</button>
+	</div>
+
+</form>
